@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <!-- bind level or input level=>for attribute
+        input=>id attribute
+        =>keep it same(userdefined)
+         -->
+        <label for="username">Enter your Name:</label>
+        <input type="text" name="fullname"id="username" required><br><br>
+        <label for="email">Enter your email address:</label>
+        <input type="email" name="Emailaddress"id="email" required><br><br>
+        <!-- Radio button  use for only one selector-->
+        <input type="radio" name="gender"id="male">
+        <label for="male">male</label>
+    
+        <input type="radio" name="gender"id="Female">
+        <label for="Female">Female</label>
+    
+        <input type="radio" name="gender"id="Transgender">
+        <label for="Transgender">male</label><br><br>
+    
+        <input type="submit" value="submit">
+        </form>
+    
+        <!-- checkbox  use for multiple selector -->
+        <form>
+         <input type="checkbox" name="vehical1" id="car" value="car">
+         <label for="car">car</label>
+    
+         <input type="checkbox" name="vehica2" id="bus" value="bus">
+         <label for="bus">bus</label>
+    
+         <input type="checkbox" name="vehical3" id="jet" value="jet">
+         <label for="jet">jet</label>
+    
+         <input type="checkbox" name="vehical4" id="autorickshaw" value="autorickshaw">
+         <label for="autorickshaw">autorickshaw</label><br><br>
+        </form>
+         <!-- option -->
+         <form>
+         <select name="" id="">
+            <option value="">A</option>
+            <option value="">B</option>
+            <option value="">C</option><br><br>
+         </select>
+         <input type="submit" value="submit"/>
+        </form>
+</body>
+</html>
